@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frank Graham - Sales Associate Portfolio</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e0e0e0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: #2e3a59;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        header .contact-info {
+            margin-top: 20px;
+        }
+
+        header .contact-info p {
+            font-size: 1.1em;
+        }
+
+        .content-wrapper {
+            display: flex;
+            justify-content: center;
+            padding: 50px 20px;
+            background-color: #ffffff;
+        }
+
+        .content {
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #2e3a59;
+            margin-bottom: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 4px;
+            background-color: #2e3a59;
+            margin: 10px auto;
+        }
+
+        .skills, .experience, .education, .languages, .interests, .conferences {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .skills ul, .experience ul, .languages ul, .interests ul, .conferences ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills ul li, .experience ul li, .languages ul li, .interests ul li, .conferences ul li {
+            background-color: #f7f7f7;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .skills ul li:hover, .experience ul li:hover, .languages ul li:hover, .interests ul li:hover, .conferences ul li:hover {
+            transform: translateY(-5px);
+        }
+
+        .job {
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .job h3 {
+            color: #2e3a59;
+        }
+
+        footer {
+            background-color: #2e3a59;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Frank Graham</h1>
+        <p>Sales Associate</p>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:frank@novoresume.com" style="color: #fff;">frank@novoresume.com</a></p>
+            <p>Phone: 123 444 555</p>
+            <p>Location: Montgomery, AL</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/frank.g" style="color: #fff;">linkedin.com/in/frank.g</a></p>
+        </div>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="content">
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Sales Management</li>
+                    <li>Revenue Growth</li>
+                    <li>Customer Service</li>
+                    <li>Customer Needs Analysis</li>
+                    <li>Conflict Resolution</li>
+                    <li>Work Ethic & Professionalism</li>
+                    <li>Effective Sales Process</li>
+                    <li>Persuasive Selling Approach</li>
+                </ul>
+            </section>
+
+            <section class="experience">
+                <h2>Work Experience</h2>
+                <div class="job">
+                    <h3>Sales Associate | ShoPerfect Deluxe Mall</h3>
+                    <p><strong>11/2018 - Present</strong></p>
+                    <ul>
+                        <li>Formulated seasonal sales promotions, resulting in 30% increase in-store sales for five consecutive months.</li>
+                        <li>Interacted with customers to recommend products that suited their needs, achieving 98% customer satisfaction.</li>
+                        <li>Collaborated with 8 sales associates to exceed sales goals on a monthly and quarterly basis.</li>
+                        <li>Maintained up-to-date product knowledge to assist customers with product-related concerns.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Retail Sales Associate | Storefront Sports Solutions</h3>
+                    <p><strong>01/2015 - 10/2018</strong></p>
+                    <ul>
+                        <li>Implemented an effective sales process, surpassing monthly sales target by 12% consistently.</li>
+                        <li>Developed and enforced a customer loyalty program, resulting in a 50% increase in sales.</li>
+                        <li>Performed strategic upselling and cross-selling of products, exceeding yearly sales quotas by more than 10%.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>Associate of Arts in Business Administration</strong> - University of Alabama at Birmingham</li>
+                </ul>
+            </section>
+
+            <section class="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>English - Native or Bilingual Proficiency</li>
+                    <li>Spanish - Professional Working Proficiency</li>
+                    <li>French - Professional Working Proficiency</li>
+                </ul>
+            </section>
+
+            <section class="interests">
+                <h2>Interests</h2>
+                <ul>
+                    <li>Blockchain Technologies</li>
+                    <li>Sailing</li>
+                    <li>Web 3.0</li>
+                    <li>Sustainability</li>
+                </ul>
+            </section>
+
+            <section class="conferences">
+                <h2>Conferences & Courses</h2>
+                <ul>
+                    <li>Sales Training for High Performing Team Specialization - Coursera</li>
+                    <li>Practical Sales Management Training - ShoPerfect Deluxe Mall</li>
+                    <li>Sales Training: Practical Sales Techniques - Udemy</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Frank Graham | Sales Associate</p>
+    </footer>
+
+</body>
+</html>
